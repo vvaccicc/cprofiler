@@ -36,7 +36,7 @@ As an exploratory data mining tool, our software can be used to guide
 feature selection for protein function or structure predictors. For
 classes of proteins with significant differences in frequencies of
 amino acids having particular physico-chemical (e.g. hydrophobicity or
-charge) or structural (e.g. alpha helix propensity) properties,
+charge) or structural (e.g. α helix propensity) properties,
 Composition Profiler can be used as a rough, light-weight visual
 classifier.
 
@@ -75,7 +75,9 @@ nginx and gunicorn for serving the flask application and static html
 pages (help, examples, etc.). See [SETUP_SERVER.md](SETUP_SERVER.md) 
 for details.
 
-python (with numpy, pandas, flask packages installed)
+python (with numpy, pandas, matplotlib, flask packages installed). See
+[SETUP_PYTHON.md](SETUP_PYTHON.md) for details.
+
 
 
 ## Command line interface:
@@ -231,7 +233,7 @@ options:
 ## Comand line usage examples:
 
 Simple command line examples for discovery and plotting of composition 
-differences in alpha MoRF residues:
+differences in α MoRF residues:
 
 ```
 cprof \
